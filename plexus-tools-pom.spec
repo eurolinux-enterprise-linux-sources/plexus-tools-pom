@@ -2,7 +2,7 @@
 
 Name:           %{short_name}-pom
 Version:        1.0.11
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Plexus Tools POM
 BuildArch:      noarch
 Group:          Development/Libraries
@@ -37,6 +37,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.11-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.11-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
